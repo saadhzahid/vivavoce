@@ -1,0 +1,70 @@
+/* CSS for the video container */
+.video-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* CSS for each video item */
+.video-item {
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+    transition: box-shadow 0.3s ease; /* Smooth transition for hover effect */
+    border: 1px solid #ddd; /* Add border */
+    border-radius: 5px; /* Add border radius */
+    background-color: #fff; /* Background color */
+    padding: 20px; /* Add padding */
+}
+
+/* Hover effect for video item */
+.video-item:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Shadow on hover */
+}
+
+/* CSS for video player */
+.video-player {
+    max-width: 100%;
+    height: auto;
+}
+
+/* CSS for form */
+#submission-form {
+    margin-top: 20px; /* Add top margin */
+}
+
+/* CSS for form elements */
+#submission-form .form-group {
+    margin-bottom: 20px; /* Add bottom margin for each form group */
+}
+
+/* CSS for form labels */
+#submission-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px; /* Add bottom margin for labels */
+}
+
+/* CSS for form inputs */
+#submission-form input[type="text"],
+#submission-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* CSS for form submit button */
+#submission-form button[type="submit"] {
+    background-color: #007bff; /* Blue background color */
+    color: #fff; /* White text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#submission-form button[type="submit"]:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
