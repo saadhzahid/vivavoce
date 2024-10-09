@@ -1,4 +1,4 @@
-# Valhalla Viva Assignment #
+# Valhalla Viva #
 
 
 Vallaha Viva is a digital implementation of the traditional Viva Voce Exam.
